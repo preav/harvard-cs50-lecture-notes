@@ -1,0 +1,31 @@
+1. source code --> compiler --> machine code
+
+2. clang filename.c to convert to machine code
+
+3. ls to list all the files in a directory (unix based ios)
+
+4. Overflow and underflow. There's only finite amount of memory available to store bits. Like int takes up 32-bits and post that it overflows and zeroes. This issue is also seen in case of 1.0/10.0. When you increase the accuracy to a higher decimal point such as 55. It would end up being some 0.1000002888...... Underflow happens when we try to pop/take out higher value from a stack with lower resource available. Eg: 1-2. 
+
+5. cd to change directory. 
+6. pwd to get the name of present working directory
+7. ../ to get out of the current path and move one level up.
+8. if you write only cd, it moves you to the home directory.
+9. To create directory/folder from cmd, write mkdir 'nameoffolder'
+10. cp sourcefilename destinationfilename for copy. If destinationfilename doesn't exist, it will create a  new one
+11. For copying an entire directory, cp -r sourcefile destinationfile (-r is for recursive)
+12. For deleting a file, rm filename. It'll prompt for confirmation, press y and move ahead. If you want to skip confirmation, write rm -f filename (f will forcely delete).
+13. For deleting an entire directory, rm -r dirname
+14. You can use rm -rf dirname to delete everything inside a directory with getting confirmation prompt.
+15. To move a file from one location to another, write: mv filename1 to filename2. Can use this command also when we want to rename a file.
+
+
+16. Data types in C:
+	a. int - 32 bits - (-2)^31 to (2)^32-1
+	b. short, long, const
+	c. chars - for single character - 8 bits - (-128) to 127
+	d. floating number (decimals) -  32 bits
+	e. double (64 bits) -  for higher precision
+	f. void is a type not a data type. Functions can return void return type.
+	g. bool, string (make sure you include cs50.h if you want to use string)
+
+
